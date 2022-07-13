@@ -1,0 +1,14 @@
+@media only screen and (max-width: 700px) {
+	.navbar {
+		display: flex;
+		flex-direction: column;
+		background-color: var(--color-primary);
+		padding: 1.5rem var(--content-margin-width-mobile);
+		align-items: center;
+	}
+
+	.navbar__logo {
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+}

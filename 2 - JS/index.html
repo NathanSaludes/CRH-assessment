@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CRH Coding Assessment #2</title>
+
+	<style>
+		body {
+			display: flex;
+			height: 100vh;
+			justify-content: center;
+			align-items: center;
+		}
+
+		button {
+			cursor: pointer;
+			background-color: transparent;
+			border: none;
+		}
+	</style>
+</head>
+
+<body>
+	<button>
+		<img class="button" src="buttons/image_link.png" alt="button_image">
+	</button>
+
+	<script>
+		const button = document.querySelector(".button");
+		button.addEventListener('mouseover', () => button.setAttribute("src", "buttons/image_link_hover.png"));
+		button.addEventListener('mouseleave', () => button.setAttribute("src", "buttons/image_link.png"));
+	</script>
+</body>
+
+</html>

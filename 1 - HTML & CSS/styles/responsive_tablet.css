@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1024px) {
+	body {
+		padding: 0;
+	}
+
+	.navbar {
+		background-color: var(--color-primary);
+		padding: 1.5rem var(--content-margin-width-mobile);
+	}
+
+	.navbar__hamburger:hover {
+		cursor: pointer;
+	}
+
+	.navbar__hamburger span:not(:last-child) {
+		margin-bottom: 4px;
+	}
+
+	.content-wrapper {
+		padding: 0 1.5rem;
+	}
+
+	footer {
+		background-color: var(--color-primary);
+		color: white;
+		padding: 2rem var(--content-margin-width-mobile);
+		text-align: center;
+		font-weight: 500;
+	}
+}
